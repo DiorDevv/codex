@@ -197,3 +197,36 @@ README’da bo‘lsin:
 ## 🎯 Yakuniy natija
 
 Siz **real mijozlarga ko‘rsatadigan** darajadagi **premium portfolio** platformaga ega bo‘lasiz: chiroyli dizayn, tez ishlash, professional admin panel va to‘liq dokumentatsiya.
+
+---
+
+## 🚀 Setup (Local)
+
+### Backend
+
+```bash
+cd backend
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+uvicorn app.main:app --reload
+```
+
+Default admin credentials (override with env vars):
+
+```bash
+export ADMIN_EMAIL=admin@example.com
+export ADMIN_PASSWORD=admin123
+```
+
+API docs: `http://localhost:8000/docs`
+
+### Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+App: `http://localhost:3000`

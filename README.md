@@ -1,8 +1,6 @@
 # ProFolio — Personal Portfolio + Blog + Admin (Full-Stack)
 
-Quyidagi hujjat **Codex’ga topshiriladigan** tarzda yozilgan, aniq va to‘liq talablar to‘plami. Maqsad: **zamonaviy, tez, mobilga mos, “wow” dizaynli** portfolio + blog + admin platforma yaratish.
 
----
 
 ## ✅ 1) Maqsad
 
